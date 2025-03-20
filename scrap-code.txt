@@ -1,0 +1,31 @@
+<div class="form-group col-md-6">
+    <label for="stock">Stock:</label>
+    <input type="text" class="form-control" id="invStock" name="invStock" value="<?php echo htmlspecialchars($vehicle['invStock']); ?>" required>
+</div>
+
+
+
+
+
+
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            Image:
+                            <?php if (!empty($vehicle['invImage'])): ?>
+                                <img src="<?php echo htmlspecialchars($vehicle['invImage']); ?>" class="main-inv-img" id="invImage" name="invImage" alt="Vehicle Image" style="max-width: 50%; height: auto;">
+                            <?php else: ?>
+                                <p>No image available</p>
+                            <?php endif; ?>
+                            <br>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            Thumbnail:
+                            <?php if (!empty($vehicle['invThumbnail'])): ?>
+                                <img src="<?php echo htmlspecialchars($vehicle['invThumbnail']); ?>" class="main-inv-img" id="invThumbnail" name="invThumbnail" alt="Vehicle Thumbnail" style="max-width: 50%; height: auto;">
+                            <?php else: ?>
+                                <p>No thumbnail available</p>
+                            <?php endif; ?>
+                            <br>
+                        </div>
+                    </div>

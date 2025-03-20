@@ -1,0 +1,356 @@
+body{
+    
+}
+
+
+p{
+    color: white;
+}
+
+.row
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md{
+    
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+
+
+    box-shadow: -1px -1px 29px 7px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px -1px 29px 7px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px -1px 29px 7px rgba(0,0,0,0.52);
+  }
+
+  
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+.col-md img
+{
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.navbar {
+
+    
+    
+}	
+.navbar .nav-link {
+    color: black;
+    font-size: 18px;
+    width: 100%;
+}
+.navbar .nav-link:hover {
+    
+    background: white;
+   
+}
+
+.bar1, .bar2, .bar3 {
+width: 35px;
+height: 5px;
+background-color: rgb(0, 0, 0);
+margin: 6px 0;
+transition: 0.4s;
+
+position: relative;
+left: -17px;
+top: -4px;
+}
+
+.change .bar1 {
+transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+transform: translate(0, -11px) rotate(45deg);
+}
+
+
+
+.dropdown-menu
+{
+    border: 3px solid #000000;
+    border-radius: 8px;
+    background: none;
+    background: rgb(255,184,0);
+    background: radial-gradient(circle, rgba(255,184,0,1) 0%, rgba(232,140,0,1) 100%);
+   
+}
+
+
+
+
+#main-img
+{
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+/* 
+#002f4b,#dc4225 
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+
+.main
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.text-muted
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-inv-img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    
+
+
+}
+
+.description
+{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(22, 22, 22);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    
+
+}
+
+
+.main-inv-img
+{
+    width: 95%;
+}
+
+h4
+{
+    text-align: center;
+}
+
+.container-view-vehicle
+{
+    
+   /* display: inline-flex;*/
+}
+
+label
+{
+    color: white;
+}
+
+.card
+{
+    background-color:rgba(0, 0, 0, 0.0)
+}
+
+.card-body
+{
+    color: white;
+    border: 5px solid #ffc550;
+    background: #3b3b3b;
+    border-radius: 10px;
+}
+
+.card-title
+{
+    text-align: center;
+}
+
+
+
+
+
+.row-btn
+{
+	background-color:#da5700;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    border: none;
+    padding: 5px;
+	text-decoration:none;
+}
+
+.row-btn:hover, .row-btn:active
+{
+    background-color: #ff9a2d;
+}
+
+
+
+
+
+
+/* Specific styling for DataTables buttons to match Bootstrap btn-outline-warning */
+div.dataTables_wrapper .dt-button {
+    background-color: transparent !important; /* Transparent background */
+    color: #ffc107 !important; /* Bootstrap warning color */
+    border: 1px solid #ffc107 !important; /* Outline with warning color */
+    padding: 8px 15px !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    margin: 2px !important;
+}
+
+/* Hover effect for DataTables buttons */
+div.dataTables_wrapper .dt-button:hover {
+    background-color: #ffc107 !important; /* Warning color on hover */
+    color: #212529 !important; /* Dark text color on hover */
+    border-color: #ffc107 !important; /* Same as background */
+}
+
+/* Active state styling */
+div.dataTables_wrapper .dt-button:active {
+    background-color: #e0a800 !important; /* Darker warning shade for active state */
+    color: #212529 !important; /* Dark text color */
+    border-color: #e0a800 !important;
+}
+
+
+/* Style the "Showing results" text */
+div.dataTables_wrapper .dataTables_info {
+    color: white !important; /* Set text color to white */
+    font-size: 14px; /* Optional: adjust font size */
+    font-weight: normal; /* Optional: make font weight normal */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General pagination button styles */
+div.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important; /* White text for all buttons */
+    background-color: transparent !important; /* Transparent background */
+    border: none !important; /* Remove borders */
+    padding: 5px 10px !important; /* Add padding */
+    cursor: pointer !important; /* Pointer cursor */
+}
+
+/* Hover effect for Next/Previous buttons */
+div.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #ffc107 !important; /* Bootstrap warning color for hover text */
+    background-color: #444444 !important; /* Dark gray background for hover */
+}
+
+/* Active page button (Current page) */
+div.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: black !important; /* Black text for active page */
+    background-color: #ffc107 !important; /* Orange background for active page */
+    border-radius: 4px !important; /* Optional: rounded edges */
+}
+
+/* Disabled Next/Previous buttons */
+div.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+    color: #6c757d !important; /* Bootstrap gray for disabled text */
+    background-color: transparent !important; /* Transparent background */
+    cursor: not-allowed !important; /* Disabled cursor style */
+}
+
+
+/* Style the "Next" and "Previous" buttons explicitly */
+div.dataTables_wrapper .dataTables_paginate .paginate_button.next,
+div.dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+    color: white !important; /* White text */
+    background-color: transparent !important; /* Transparent background */
+}
+
+/* Hover effect for "Next" and "Previous" buttons */
+div.dataTables_wrapper .dataTables_paginate .paginate_button.next:hover,
+div.dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover {
+    color: #ffc107 !important; /* Orange hover text */
+    background-color: #444444 !important; /* Dark gray hover background */
+}
+
+
+
+/* Style the text inside the search bar input */
+div.dataTables_wrapper div.dataTables_filter input {
+    color: white !important; /* White text */
+    background-color: transparent !important; /* Optional: transparent background */
+    border: 1px solid white !important; /* Optional: white border */
+    border-radius: 4px; /* Optional: rounded corners */
+    padding: 5px 10px; /* Optional: better spacing */
+}
+
+/* Placeholder text in the search bar */
+div.dataTables_wrapper div.dataTables_filter input::placeholder {
+    color: white !important; /* White placeholder text */
+    opacity: 0.7; /* Slightly faded placeholder */
+}
+
+
+
+
+#invDescription
+{
+    display: block;
+    width: 500px;
+}
+
+.form-center
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#image-form
+{
+    color: white;
+}
